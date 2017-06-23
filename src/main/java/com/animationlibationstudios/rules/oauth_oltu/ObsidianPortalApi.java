@@ -1,15 +1,14 @@
-package com.animationlibationstudios.rules.oauth2;
+package com.animationlibationstudios.rules.oauth_oltu;
 
 import de.btobastian.javacord.utils.LoggerUtil;
 import org.apache.oltu.oauth2.common.exception.OAuthProblemException;
 import org.apache.oltu.oauth2.common.exception.OAuthSystemException;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 
-@Service
+//@Service
 public class ObsidianPortalApi {
 
     /**
